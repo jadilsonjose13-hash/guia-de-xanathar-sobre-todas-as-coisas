@@ -1,0 +1,205 @@
+{
+  "id": "guia-de-xanathar-sobre-todas-as-coisas",
+  "title": "Guia de Xanathar sobre Todas as Coisas",
+  "version": "1.5.2",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "livro-do-jogador-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-item-compendium-by-gwill",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>Explore uma variedade de novas opções de regras para jogadores e Mestres neste suplemento para o melhor RPG do mundo.</p>",
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/guia-de-xanathar-sobre-todas-as-coisas/imagens/thumb-modulo.jpg",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-subclasses",
+      "label": "Características de Subclasses",
+      "path": "packs/caracteristicas-de-subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magias",
+      "label": "Magias",
+      "path": "packs/magias",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "spell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "talentos-raciais",
+      "label": "Talentos Raciais",
+      "path": "packs/talentos-raciais",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "itens-magicos-comuns",
+      "label": "Itens Mágicos Comuns",
+      "path": "packs/itens-magicos-comuns",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "atores",
+      "label": "Atores",
+      "path": "packs/atores",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Guia de Xanathar sobre Todas as Coisas",
+      "sorting": "a",
+      "color": "#ba7c00",
+      "packs": [
+        "talentos-raciais",
+        "regras",
+        "tabelas",
+        "atores"
+      ],
+      "folders": [
+        {
+          "name": "Miscelânea Mágica",
+          "sorting": "a",
+          "color": "#a76f00",
+          "packs": [
+            "magias",
+            "itens-magicos-comuns"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Subclasses",
+          "sorting": "m",
+          "color": "#946300",
+          "packs": [
+            "subclasses",
+            "caracteristicas-de-subclasses"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.EzntFqlUzij1yn82",
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.k4AFXlh8TYbRbY3W",
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.4QXJUAjmZ10ipCcL",
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.4w1eLj7xMbWOymr3",
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.6i8YWwapVUL4zS4v",
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.WcykHnhlbrwapgyP",
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.ypQ63eCbuIZAg3JJ",
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.rVmzBI9TWASJrScu",
+        "Compendium.guia-de-xanathar-sobre-todas-as-coisas.regras.JournalEntry.I0WYibgA0nFz9zDh.JournalEntryPage.66dYPKq1MCLxy7U7"
+      ],
+      "sourceBooks": {
+        "XGE": "Guia de Xanathar sobre Todas as Coisas"
+      }
+    }
+  },
+  "url": "https://github.com/jadilsonjose13-hash/guia-de-xanathar-sobre-todas-as-coisas",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/guia-de-xanathar-sobre-todas-as-coisas/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/guia-de-xanathar-sobre-todas-as-coisas/archive/refs/heads/main.zip"
+}
